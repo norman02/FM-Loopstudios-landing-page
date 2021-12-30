@@ -1,6 +1,5 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+
 @import 'base/reset';
-
-body {
-    background-color: gray;
-}
-
+@import 'base/typography';
