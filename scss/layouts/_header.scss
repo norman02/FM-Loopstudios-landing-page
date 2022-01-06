@@ -1,0 +1,13 @@
+header {
+    background-image: url('../images/mobile/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: rem(235);
+
+    h1 {
+        border: 2px solid $white;
+        margin: rem(197) rem(24) 0;
+        padding: rem(34) rem(24);
+    }
+}

@@ -83,6 +83,7 @@ nav li {
 }
 
 .closed {
+  height: auto;
   background-color: transparent;
 }
 
@@ -92,5 +93,19 @@ nav li {
 
 .closed ul {
   display: none;
+}
+
+header {
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 14.6875rem;
+}
+
+header h1 {
+  border: 2px solid #FFF;
+  margin: 12.3125rem 1.5rem 0;
+  padding: 2.125rem 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
