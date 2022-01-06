@@ -1,0 +1,37 @@
+nav {
+    background-color: $black;
+    color: $white;
+    height: 100vh;
+    padding: rem(40) rem(24);
+
+    .hamburger {
+        background-image: url('../images/icon-close.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: right;
+        height: rem(24);
+        width: rem(24);
+    }
+
+    ul {
+      margin-top: rem(160);  
+    }
+
+    li {
+        margin-bottom: rem(24);
+    }
+
+}
+
+.closed {
+
+    .hamburger {
+        background-image: url('../images/icon-hamburger.svg');
+    }
+
+    ul {
+        display: none;
+    }
+
+    background-color: transparent;
+}
